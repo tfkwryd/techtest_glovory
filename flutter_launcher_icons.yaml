@@ -1,0 +1,7 @@
+# flutter pub run flutter_launcher_icons:main
+# flutter pub run flutter_launcher_icons:main -f <your config file name here>
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo-glovory-bg-white.png"

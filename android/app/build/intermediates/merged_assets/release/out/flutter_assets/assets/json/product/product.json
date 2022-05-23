@@ -1,0 +1,84 @@
+{
+    "result": [
+        {
+            "id": 1,
+            "product_name": "Coki coki",
+            "product_thumbnail": "https://cf.shopee.co.id/file/6362b1ade62e55517ffb5d6cc9f2a077",
+            "category": "Snack",
+            "price": 1000.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 2,
+            "product_name": "Good Time",
+            "product_thumbnail": "https://cf.shopee.co.id/file/63507e332098e8203bd64839152157e8",
+            "category": "Snack",
+            "price": 1500.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Indomie",
+            "product_thumbnail": "https://cf.shopee.co.id/file/b0f59fa3c52f1f20ca00971616e6eb77",
+            "category": "Meal",
+            "price": 2500.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Ultra Milk",
+            "product_thumbnail": "https://cf.shopee.co.id/file/cfed0b6796fd426ce83842000ade078d",
+            "category": "Drink",
+            "price": 2000.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Teh Kotak",
+            "product_thumbnail": "https://cf.shopee.co.id/file/9e811256c8a2998f4bf033ada2b802a1",
+            "category": "Drink",
+            "price": 1500.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Bang Bang",
+            "product_thumbnail": "https://cf.shopee.co.id/file/339b7a3db0b8128114e8f34302d38f6b",
+            "category": "Snack",
+            "price": 2000.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Gery Nabati",
+            "product_thumbnail": "https://cf.shopee.co.id/file/b1b039f9a53321f17d3fa6e6bf83d6f2",
+            "category": "Snack",
+            "price": 1500.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Superman Wafer",
+            "product_thumbnail": "https://cf.shopee.co.id/file/b0ae343dfce0d86b656ea2759adef166",
+            "category": "Snack",
+            "price": 1500.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Cheetos Keju",
+            "product_thumbnail": "https://cf.shopee.co.id/file/b38b7bd0c2027c27206f996130191c79",
+            "category": "Snack",
+            "price": 5000.0,
+            "currency": "Rp"
+        },
+        {
+            "id": 1,
+            "product_name": "Better Sandwich Biskuit",
+            "product_thumbnail": "https://cf.shopee.co.id/file/fa109d8e7ec16452df46c68a414c264e",
+            "category": "Snack",
+            "price": 1500.0,
+            "currency": "Rp"
+        }
+    ]
+}
