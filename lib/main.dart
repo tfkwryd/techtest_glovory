@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:oktoast/oktoast.dart';
+import 'package:provider/provider.dart';
 import 'package:techtest/src/injector.dart';
 import 'package:techtest/src/config/routers/routers.dart';
+import 'package:techtest/src/presentasion/providers/app_provider.dart';
 
 void main() async {
   await Injector.initializeDependencies();
@@ -14,11 +16,16 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return OKToast(
-      child: MaterialApp(
-        title: 'techtest',
-        routes: Routes.route,
-        initialRoute: '/',
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(create: (_) => AppProvider()),
+      ],
+      child: OKToast(
+        child: MaterialApp(
+          title: 'techtest',
+          routes: Routes.route,
+          initialRoute: '/',
+        ),
       ),
     );
   }
