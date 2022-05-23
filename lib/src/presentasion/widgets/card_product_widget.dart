@@ -33,7 +33,7 @@ class CardProductWidget extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               SizedBox(
-                height: 150,
+                height: 100,
                 width: double.infinity,
                 child: ClipRRect(
                   borderRadius: const BorderRadius.only(
@@ -71,7 +71,7 @@ class CardProductWidget extends StatelessWidget {
                       ),
                     ),
                     const SizedBox(
-                      height: 90,
+                      height: 80,
                     ),
                   ],
                 ),

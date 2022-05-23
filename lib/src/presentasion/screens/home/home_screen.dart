@@ -246,7 +246,7 @@ class _HomeGridProductState extends State<_HomeGridProduct> {
       children: [
         AlignedGridView.count(
           padding: EdgeInsets.fromLTRB(
-              16, 16, 16, MediaQuery.of(context).padding.bottom + 72),
+              16, 16, 16, MediaQuery.of(context).padding.bottom + 72 + 24),
           crossAxisCount: 2,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
@@ -263,7 +263,7 @@ class _HomeGridProductState extends State<_HomeGridProduct> {
                 Container(
                   color: AppColors.solidWhiteColor.withOpacity(0.9),
                   padding: EdgeInsets.fromLTRB(
-                      16, 0, 16, MediaQuery.of(context).padding.bottom),
+                      16, 0, 16, MediaQuery.of(context).padding.bottom + 24),
                   child: GestureDetector(
                     onTap: () {
                       if (!Provider.of<AuthProvider>(context, listen: false)
