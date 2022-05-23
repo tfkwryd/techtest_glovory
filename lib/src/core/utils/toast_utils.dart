@@ -46,7 +46,7 @@ class Toast {
       backgroundColor: _generateColor(),
       radius: 8,
       textStyle: AppTextStyle.textToast,
-      textPadding: const EdgeInsets.all(8),
+      textPadding: const EdgeInsets.all(16),
     );
   }
 }

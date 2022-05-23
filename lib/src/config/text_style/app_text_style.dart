@@ -5,13 +5,13 @@ class AppTextStyle {
   static const headline1 = TextStyle(
     fontFamily: 'Poppins',
     fontSize: 24,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
     color: AppColors.defaultTextColor,
   );
   static const headline2 = TextStyle(
     fontFamily: 'Poppins',
     fontSize: 20,
-    fontWeight: FontWeight.w500,
+    fontWeight: FontWeight.w600,
     color: AppColors.defaultTextColor,
   );
   static const headline3 = TextStyle(

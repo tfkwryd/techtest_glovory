@@ -4,6 +4,9 @@ import 'package:provider/provider.dart';
 import 'package:techtest/src/injector.dart';
 import 'package:techtest/src/config/routers/routers.dart';
 import 'package:techtest/src/presentasion/providers/app_provider.dart';
+import 'package:techtest/src/presentasion/providers/auth_provider.dart';
+import 'package:techtest/src/presentasion/providers/cart_provicer.dart';
+import 'package:techtest/src/presentasion/providers/product_provider.dart';
 
 void main() async {
   await Injector.initializeDependencies();
@@ -19,6 +22,9 @@ class MyApp extends StatelessWidget {
     return MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (_) => AppProvider()),
+        ChangeNotifierProvider(create: (_) => AuthProvider()),
+        ChangeNotifierProvider(create: (_) => CartProvider()),
+        ChangeNotifierProvider(create: (_) => ProductProvider()),
       ],
       child: OKToast(
         child: MaterialApp(
